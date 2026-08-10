@@ -1,0 +1,7 @@
+module.exports = (req, res) => {
+  const cookies = `
+NetflixId=v=3&ct=BgjHlOvcAxKmA5GcjHrQNOyZkAe5-n9DYpGttSbgwf709zCqAWos6CWm2X3NoymsRzjp2oq45Y6JQX8JHJbFZT3FK-1stpfEpa3d2SyM3pF5HkZXbAzEZjSi2TVrzgDToCmmHhSayl-OYuRd5n2giaIOP76sJ-8EftyJnPbdFonRPupMgC_Gus-2_BdqL7Xys4xKzG4s_j8PE2dycULiUk7G8dA3G_d0Mab7tmZ-msQ_vTozSYwCZSbHlPaV8pVXqJAU0XTxtZNO9dP1PqiZd1IxFHi7f99EeqwfjHGTFaDT7eGt3jTSTU3aPNEohkAL_LQf4Oa6Xd6TheYlkUV8bljlmdn7LwSeCZDcojVtBTiPi3f16Kdvxt9VbGzLslSa-Rduwh7xtVUMXLbyBN4M-3WsXqrqPE3ZNcXiesrrOc4R5NuJYKahBHoyvrgghl3TQY2fLUS_PNADQLtPfuvKLxBN_xwICOyvcoykwpAH0Yqywppc1wxgT9sflx86uzaGcV-zid_Shgyl8mtgMLM8CZMi0WguuK7sQhTBe5zvKOAzEUiL8jrfnT5-dQLyl3RQGAYiDgoMCsg4f2COKYktXFn0&pg=J6ZN2S2BGJBZDIQIQ5UF2MK6PQ&ch=AQEAEAABABSKW-fMaH4Qdhij4E6R4dO81QuXXgQ8xAs.
+SecureNetflixId=v=3&mac=AQEAEQABABRYeHBeyrr4vOHCZAUdMmXqWFjU2uuAoOc.&dt=1786339652539
+  `;
+  res.status(200).json({ cookies: cookies });
+};
