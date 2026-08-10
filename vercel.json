@@ -1,3 +1,13 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/get-cookie" }]
+  "functions": {
+    "api/get-cookie.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/get-cookie"
+    }
+  ]
 }
